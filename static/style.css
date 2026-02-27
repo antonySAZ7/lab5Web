@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: #2b2b2b;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+th a {
+    color: white;
+    text-decoration: none;
+}
+
+tr.complete {
+    background-color: #14532d;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.progress {
+    width: 100%;
+    background: #444;
+}
+
+.bar {
+    height: 10px;
+    background: #22c55e;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+}
